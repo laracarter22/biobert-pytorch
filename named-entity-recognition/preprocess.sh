@@ -1,5 +1,6 @@
 #!/bin/bash
-ENTITIES="NCBI-disease BC5CDR-disease BC5CDR-chem BC4CHEMD JNLPBA BC2GM linnaeus s800"
+#ENTITIES="NCBI-disease BC5CDR-disease BC5CDR-chem BC4CHEMD JNLPBA BC2GM linnaeus s800"
+ENTITIES = "B-PK I-PK O"
 MAX_LENGTH=128
 
 for ENTITY in $ENTITIES
