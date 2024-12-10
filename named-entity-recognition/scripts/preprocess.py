@@ -5,8 +5,9 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 from transformers import AutoTokenizer
 
-
+#Path to dataset file... I need to change this so that the data is within the folder
 dataset = sys.argv[1]
+
 model_name_or_path = sys.argv[2]
 max_len = int(sys.argv[3])
 
